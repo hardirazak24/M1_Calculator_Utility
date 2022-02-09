@@ -17,6 +17,19 @@ The input includes the command such as we can give numbers based on the operatio
 * Appropriate error messages at failure and success of operations
 
 ## SWOT
+#### STRENGTHS
 
-## 4W & 1H
+The ultimate strength Calculators is its innovative,user-friendly and long lasting etc..
+
+### WEAKNESSES
+
+Do not inlude all the operations rather have onlty addition,subtraction multiplication, division ,modulas ,power and factorial.
+
+### OPPORTUNITIES
+
+The tech-based market has a huge opportunities in capturing the youth market. And this calculator comparatively already one step ahead than other
+
+### THREATS
+
+The slower growth in technological innovation will also bring a significant threat in the upcoming dynamic world.
 
