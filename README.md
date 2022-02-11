@@ -11,6 +11,7 @@ The input includes the command such as we can give numbers based on the operatio
 [![cppcheck](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/cppcheck.yml)
 
 # Dynamic Analysis
+[![Dynamic Code Analysis Valgrind](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/Valgrind.yml)
 
 # Code Quality
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd9660633d8a4c0ba09e77a20096e6ec)](https://www.codacy.com/gh/hardirazak24/M1_Calculator_Utility/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hardirazak24/M1_Calculator_Utility&amp;utm_campaign=Badge_Grade)
