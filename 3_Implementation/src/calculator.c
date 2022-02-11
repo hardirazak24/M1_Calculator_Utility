@@ -74,6 +74,32 @@ int squareroot(){
     printf("The square root of %lf is %lf",b,s);
     return 0;
 }
+int sin_x(){
+  int i, j, n, fact, sign =  - 1;
+  float x, p, sum = 0;
+
+  printf("Enter the value of x : ");
+  scanf("%f", &x);
+  printf("Enter the value of n : ");
+  scanf("%d", &n);
+
+  for (i = 1; i <= n; i += 2)
+  {
+    p = 1;
+    fact = 1;
+    for (j = 1; j <= i; j++)
+    {
+      p = p * x;
+      fact = fact * j;
+    }
+    sign =  - 1 * sign;
+    sum += sign * p / fact;
+  }
+
+  printf("sin %0.2f = %f", x, sum);
+
+  return 0;
+}
 int matrix_addition(){
     int r, c, a[10][10], b[10][10], sum[10][10], i, j;
   printf("Enter the number of rows (between 1 and 100): ");
