@@ -34,5 +34,16 @@ The input includes the command such as we can give numbers based on the operatio
 | `F_05` | Implimentation of Multifile and Makefile |
 | `F_06` | Building all the workflows In Git |
 
+## Challenges Faced and How Was It Overcome
+| No. | Challenges | Solutions |
+| --- | --- | ---|
+| 1. | Faced errors during unit testing | Referred some articles in web to solve the issue |
+
+## References
+* [Basic Calculator Youtube Video](https://www.youtube.com/watch?v=GAdOH9DNRXs)
+* [Programiz](https://www.programiz.com/)
+* [Matrices](https://www.c-sharpcorner.com/blogs/add-two-matrix-using-c)
+* [Github Learning Lab](https://youtu.be/sz6zfrQpCQg)
+
 
 
