@@ -15,7 +15,7 @@ int power();
 int square();
 int cube();
 int squareroot();
-int sin_x();
+int logarithm();
 int matrix_addition();
 int matrix_substraction();
 #endif

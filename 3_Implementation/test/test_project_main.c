@@ -14,6 +14,7 @@ int power();
 int square();
 int cube();
 int squareroot();
+int logarithm();
 int matrix_addition();
 int matrix_substraction();
 
@@ -33,7 +34,7 @@ int main()
     printf("Enter 8 to find square of a number \n");
     printf("Enter 9 to find cube of a number \n");
     printf("Enter 10 for squareroot\n");
-    printf("Enter 11 for finding the Sin value\n");
+    printf("Enter 11 for Logarithm\n");
     printf("Enter 12 for Matrix Addition\n");
     printf("Enter 13 for Matrix Substraction\n\n");
     
@@ -47,76 +48,75 @@ int main()
     }
     else if(choice==1)    
      {
-        result = addition(num1, num2);
-        printf("The sum = %d\n", result);
+      result = addition(num1, num2);
+      printf("The sum = %d\n", result);
         
      }   
      else if(choice==2) 
      {
-        result = subtraction(num1, num2);
-        printf("The substraction = %d\n", result);
+      result = subtraction(num1, num2);
+      printf("The substraction = %d\n", result);
         
      }
      else if(choice==3) 
      {
-        result = multiplication(num1, num2);
-        printf("The Multiplication = %d\n", result);
+      result = multiplication(num1, num2);
+      printf("The Multiplication = %d\n", result);
         
      }
      else if(choice==4)
      {
-        division();
+      division();
         
      }
      else if(choice==5)
      {  
-        result = modulus(s2);
-        printf("The Modulus = %d\n", result);
+      result = modulus(s2);
+      printf("The Modulus = %d\n", result);
                     
      }
      else if(choice==6)
      {
-        power();
+      power();
                     
      }
      else if(choice==7)
      {
-        result = factorial(s2);
-        printf("The Factorial = %d\n", result);
+      result = factorial(s2);
+      printf("The Factorial = %d\n", result);
                     
      }
      else if(choice==8)
      {
-        square();
+      square();
                     
      }
      else if(choice==9)
      {
-        cube();
+      cube();
                     
      }
      else if(choice==10)
      {
-        squareroot();
+      squareroot();
                    
      }
-     else if(choice==11)
-     {
-        sin_x();
-                    
-     }
+    else if(choice==11)
+    {
+      int logarithm();
+    }
      else if(choice==12)
      {
-        matrix_addition();
+      matrix_addition();
                     
      }
      else if(choice==13)
      {
-        matrix_substraction();
+      matrix_substraction();
                     
      }
      else
-        printf("\nInvalid Option\n");
+      printf("\nInvalid Option\n");
     
     }
     #else

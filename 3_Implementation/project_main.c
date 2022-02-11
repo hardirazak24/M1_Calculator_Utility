@@ -14,7 +14,7 @@ int power();
 int square();
 int cube();
 int squareroot();
-int sin_x();
+int logarithm();
 int matrix_addition();
 int matrix_substraction();
 
@@ -33,7 +33,7 @@ int main()
     printf("Enter 8 to find square of a number \n");
     printf("Enter 9 to find cube of a number \n");
     printf("Enter 10 for squareroot\n");
-    printf("Enter 11 for finding the Sin value\n");
+    printf("Enter 11 for Logarithm\n");
     printf("Enter 12 for Matrix Addition\n");
     printf("Enter 13 for Matrix Substraction\n\n");
     
@@ -100,7 +100,7 @@ int main()
     }
     else if(choice==11)
     {
-        sin_x();              
+        logarithm();
     }
     else if(choice==12)
     {

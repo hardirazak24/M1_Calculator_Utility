@@ -74,29 +74,17 @@ int squareroot(){
     printf("The square root of %lf is %lf",b,s);
     return 0;
 }
-int sin_x(){
-  int i, j, n, fact, sign =  - 1;
-  float x, p, sum = 0;
 
-  printf("Enter the value of x : ");
-  scanf("%f", &x);
-  printf("Enter the value of n : ");
-  scanf("%d", &n);
+int logarithm()
+{
+  double n, result;
 
-  for (i = 1; i <= n; i += 2)
-  {
-    p = 1;
-    fact = 1;
-    for (j = 1; j <= i; j++)
-    {
-      p = p * x;
-      fact = fact * j;
-    }
-    sign =  - 1 * sign;
-    sum += sign * p / fact;
-  }
+  printf("Enter a number to calculate its natural logarithm (base = e)\n");
+  scanf("%lf", &n);
 
-  printf("sin %0.2f = %f", x, sum);
+  result = log(n);
+
+  printf("Natural log of %.2lf = %lf\n", n, result);
 
   return 0;
 }
