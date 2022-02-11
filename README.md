@@ -14,6 +14,7 @@ The input includes the command such as we can give numbers based on the operatio
 
 # Code Quality
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd9660633d8a4c0ba09e77a20096e6ec)](https://www.codacy.com/gh/hardirazak24/M1_Calculator_Utility/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hardirazak24/M1_Calculator_Utility&amp;utm_campaign=Badge_Grade)
+![codiga badge](https://api.codiga.io/project/31052/score/svg)
 
 ## Milestone -1
 * Folder Structure
