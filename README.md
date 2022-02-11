@@ -6,6 +6,7 @@ The input includes the command such as we can give numbers based on the operatio
 
 # Build Status
 [![Build-linux](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/Build-linux.yml)
+[![cppcheck](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/hardirazak24/M1_Calculator_Utility/actions/workflows/cppcheck.yml)
 ## Milestone -1
 * Folder Structure
 * Idea
