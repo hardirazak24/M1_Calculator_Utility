@@ -1,7 +1,10 @@
 PROJ_NAME=Calculator
-SRC=src/project_main.c src/calculator.c 
+SRC=project_main.c src/calculator.c 
 
-TEST_SRC=src/test_project_main.c src/calculator.c src/test_calculator.c src/unity.c
+TEST_SRC=test/test_project_main.c src/calculator.c test/test_calculator.c unity/unity.c
+
+INC	= -Iinc\
+-Iunity\
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
@@ -17,7 +20,7 @@ else
 endif
 
 Build : $(SRC)
-	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 Run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -29,12 +32,12 @@ dynamic_analysis : Build
 	valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 coverage :
-	gcc -fprofile-arcs -ftest-coverage $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 	gcov -a src/project_main.c src/calculator.c
 
 Test : $(TEST_SRC)
-	gcc $(TEST_SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 Clean:
