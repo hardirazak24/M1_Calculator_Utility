@@ -1,2 +1,2 @@
 ## Structural Diagram
-![Structural Diagram](https://user-images.githubusercontent.com/73360521/153279883-ada735c9-d83b-454f-9868-f7a1c250b7cd.png)
+![Struct_Diag](https://user-images.githubusercontent.com/73360521/153625004-a404f709-c4cd-47e6-bd5d-594b2031dd38.png)
