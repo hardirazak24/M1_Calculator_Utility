@@ -19,6 +19,7 @@ int matrix_substraction();
 
 int main()
 {   
+    #if 0
     int choice, result = 0, num1, num2, s1=0, s2=1;
     printf("\t\tScientific calculator!!\n\n");
     printf("Enter 0 to quit the program\n");
@@ -90,5 +91,8 @@ int main()
         }
     
     }
+    #else
+    test_main();
+    #endif
     return 0;
 }

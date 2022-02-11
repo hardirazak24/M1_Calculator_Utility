@@ -1,5 +1,7 @@
 PROJ_NAME=Calculator
-SRC=src/project_main.c src/calculator.c src/test_calculator.c src/unity.c
+SRC=src/project_main.c src/calculator.c 
+
+TEST_SRC=src/test_project_main.c src/calculator.c src/test_calculator.c src/unity.c
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
@@ -18,6 +20,10 @@ Build : $(SRC)
 	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 Run : Build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+Test : $(TEST_SRC)
+	gcc $(TEST_SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 Clean:
