@@ -20,7 +20,7 @@ int matrix_substraction();
 
 int main()
 {   
-    int choice, result = 0, num1, num2, s1=0, s2=1;
+    int choice, result = 0, num1, num2;
     printf("\t\tScientific calculator!!\n\n");
     printf("Enter 0 to quit the program\n");
     printf("Enter 1 to perform Addition \n");
@@ -47,18 +47,24 @@ int main()
     }
     else if(choice==1)    
     {
+        printf("Enter two numbers to add: ");
+        scanf("%d%d",&num1,&num2);
         result = addition(num1, num2);
         printf("The sum = %d\n", result);
         
     }   
     else if(choice==2) 
     {
+        printf("Enter the numbers you want to subtract: ");
+        scanf("%d%d",&num1, &num2);
         result = subtraction(num1, num2);
         printf("The substraction = %d\n", result);
         
     }
     else if(choice==3) 
     {
+        printf("Enter the numbers you want to multiply: ");
+        scanf("%d%d",&num1,&num2);
         result = multiplication(num1, num2);
         printf("The Multiplication = %d\n", result);
         
@@ -69,8 +75,9 @@ int main()
         
     }
     else if(choice==5)
-    {  
-        result = modulus(s2);
+    {   printf("Enter the numbers you want to find modulus of: ");
+        scanf("%d%d",&num1,&num2);
+        result = modulus(num1, num2);
         printf("The Modulus = %d\n", result);
                     
     }
@@ -81,7 +88,9 @@ int main()
     }
     else if(choice==7)
     {
-        result = factorial(s2);
+        printf("Enter the number you want the factorial of: ");
+        scanf("%d",&num1);
+        result = factorial(num1);
         printf("The Factorial = %d\n", result);
                     
     }

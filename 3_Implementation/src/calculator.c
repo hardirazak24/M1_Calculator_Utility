@@ -4,18 +4,13 @@
 
 int addition(int operand1, int operand2)
 {
-    printf("Enter two numbers to add: ");
-    scanf("%d%d",&operand1,&operand2);
     return operand1 + operand2;
 }
-int subtraction(int operand1, int operand2){
-    printf("Enter the numbers you want to subtract: ");
-    scanf("%d%d",&operand1, &operand2);
+int subtraction(int operand1, int operand2)
+{
     return operand1-operand2;
 }
 int multiplication(int a, int b){
-    printf("Enter the numbers you want to multiply: ");
-    scanf("%d%d",&a,&b);
     return a*b;
 }
 int division(){
@@ -25,17 +20,12 @@ int division(){
     printf("The Division = %f\n ",(float)a/(float)b);
     return 0;
 }
-int modulus(int mod){
-    printf("Enter the numbers you want to find modulus of: ");
-    int a,b;
-    scanf("%d%d",&a,&b);
-    mod = a%b;
-    return mod;
+int modulus(int mod1, int mod2)
+{
+    return mod1%mod2;
 }
-int factorial(int fact){
-    int n;
-    printf("Enter the number you want the factorial of: ");
-    scanf("%d",&n);
+int factorial(int n){
+    int fact=1;
     for(int i=1;i<=n;i++){
         fact=fact*i; // factorial*=i;
     }
