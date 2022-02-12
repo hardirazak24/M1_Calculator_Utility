@@ -36,6 +36,14 @@ void test_fact()
 {
   TEST_ASSERT_EQUAL(120, factorial(5));
 }
+void test_cube()
+{
+  TEST_ASSERT_EQUAL(125, cube(5));
+}
+void test_sqr()
+{
+  TEST_ASSERT_EQUAL(49, square(7));
+}
 int test_main()
 {
 /* Initiate the Unity Test Framework */
@@ -47,6 +55,8 @@ int test_main()
   RUN_TEST(test_mul);
   RUN_TEST(test_mod);
   RUN_TEST(test_fact);
+  RUN_TEST(test_cube);
+  RUN_TEST(test_sqr);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }

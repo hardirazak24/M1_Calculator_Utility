@@ -88,12 +88,18 @@ int main()
      }
      else if(choice==8)
      {
-      square();
+      printf("Enter the number you want the square of: ");
+      scanf("%d",&num1);
+      result = square(num1);
+      printf("The square = %d\n", result);
                     
      }
      else if(choice==9)
      {
-      cube();
+      printf(" \n Please Enter any integer Value : ");
+      scanf("%d", &num1);
+      result = cube(num1);   
+      printf("The Cube = %d\n", result);  
                     
      }
      else if(choice==10)

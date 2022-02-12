@@ -27,111 +27,91 @@ int modulus(int mod1, int mod2)
 int factorial(int n){
     int fact=1;
     for(int i=1;i<=n;i++){
-        fact=fact*i; // factorial*=i;
+        fact=fact*i; 
     }
     return fact;
 }
 int power(){
-    double base;
-    double power;
-    printf("Enter the base and the power: ");
-    scanf("%lf%lf",&base,&power);
-    double e=pow(base,power);
-    printf("The power is %lf",e);
-    return 0;
+      int b, e;
+     long p=1;
+     printf("Enter base and Exponent: ");
+     scanf("%d %d",&b,&e);
+     while(e!=0)
+     {  p *= b; 
+        e--;
+     }
+     printf("Result = %ld\n", p);
+     return 0;
 }
-int square(){
-    double b;
-    printf("Enter the number you want the square of: ");
-    scanf("%lf",&b);
-    double p=pow(b,2);
-    printf("The square of %lf is %lf",b,p);
-    return 0;
+int square(int n){
+    return n*n;
 }
-int cube(){
-    double b;
-    printf("Enter the number you want the cube of: ");
-    scanf("%lf",&b);
-    double p=pow(b,3);
-    printf("The cube of %lf is %lf",b,p);
-    return 0;
+int cube(int n){
+  return n*n*n;
 }
 int squareroot(){
-    double b;
+    double n,sr;
     printf("Enter the number you want the square root of : ");
-    scanf("%lf",&b);
-    double s = sqrt(b);
-    printf("The square root of %lf is %lf",b,s);
+    scanf("%lf",&n);
+    sr = sqrt(n);
+    printf("The square root = %lf",sr);
     return 0;
 }
 
 int logarithm()
 {
-  double n, result;
-
-  printf("Enter a number to calculate its natural logarithm (base = e)\n");
-  scanf("%lf", &n);
-
-  result = log(n);
-
-  printf("Natural log of %.2lf = %lf\n", n, result);
-
+  double a, logx;
+  printf("Enter a number to calculate its log\n");
+  scanf("%lf", &a);
+  logx = log(a);
+  printf("log  = %lf\n", logx);
   return 0;
 }
 int matrix_addition(){
-    int r, c, a[10][10], b[10][10], sum[10][10], i, j;
-  printf("Enter the number of rows (between 1 and 100): ");
-  scanf("%d", &r);
-  printf("Enter the number of columns (between 1 and 100): ");
-  scanf("%d", &c);
-
+    int m, n, a[10][10], b[10][10], sum[10][10], i, j;
+  printf("Enter the number of rows: ");
+  scanf("%d", &m);
+  printf("Enter the number of columns: ");
+  scanf("%d", &n);
   printf("\nEnter elements of 1st matrix:\n");
-  for (i = 0; i < r; ++i)
-    for (j = 0; j < c; ++j) {
-      printf("Enter element a%d%d: ", i + 1, j + 1);
+  for (i = 0; i < m; ++i)
+    for (j = 0; j < n; ++j) 
       scanf("%d", &a[i][j]);
-    }
-
   printf("Enter elements of 2nd matrix:\n");
-  for (i = 0; i < r; ++i)
-    for (j = 0; j < c; ++j) {
-      printf("Enter element b%d%d: ", i + 1, j + 1);
+  for (i = 0; i < m; ++i)
+    for (j = 0; j < n; ++j) 
       scanf("%d", &b[i][j]);
-    }
-
-  for (i = 0; i < r; ++i)
-    for (j = 0; j < c; ++j) {
+  for (i = 0; i < m; ++i)
+    for (j = 0; j < n; ++j) {
       sum[i][j] = a[i][j] + b[i][j];
     }
-
   printf("\nSum of two matrices: \n");
-  for (i = 0; i < r; ++i)
-    for (j = 0; j < c; ++j) {
+  for (i = 0; i < m; ++i)
+    for (j = 0; j < n; ++j) {
       printf("%d   ", sum[i][j]);
-      if (j == c - 1) {
+      if (j == n - 1) {
         printf("\n\n");
       }
     }
-
   return 0;
 }
 int matrix_substraction(){
-    int m, n, c, d, first[10][10], second[10][10], difference[10][10];  
+    int m, n, i, j, a[10][10], b[10][10], sub[10][10];  
     printf("Enter the number of rows and columns of matrix\n");  
     scanf("%d%d", & m, & n);  
     printf("Enter the elements of first matrix\n");  
-    for (c = 0; c < m; c++)  
-        for (d = 0; d < n; d++) scanf("%d", & first[c][d]);  
+    for (i = 0; i < m; i++)  
+        for (j = 0; j < n; j++) scanf("%d", & a[i][j]);  
     printf("Enter the elements of second matrix\n");  
-    for (c = 0; c < m; c++)  
-        for (d = 0; d < n; d++) scanf("%d", & second[c][d]);  
+    for (i = 0; i < m; i++)  
+        for (j = 0; j < n; j++) scanf("%d", & b[i][j]);  
     printf("Difference of entered matrices:-\n");  
-    for (c = 0; c < m; c++)   
+    for (i = 0; i < m; i++)   
     {  
-        for (d = 0; d < n; d++)   
+        for (j = 0; j < n; j++)   
         {  
-            difference[c][d] = first[c][d] - second[c][d];  
-            printf("%d\t", difference[c][d]);  
+            sub[i][j] = a[i][j] - b[i][j];  
+            printf("%d\t", sub[i][j]);  
         }  
         printf("\n");  
     }  
