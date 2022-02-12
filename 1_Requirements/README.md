@@ -3,18 +3,6 @@
 Mathematical operations are a part of our daily lives. Everyday we will be involving with various types of calculations around us. Scientific calculator is a project to allow users to calculate operation in mathematics such as addition, subtraction, multiplication, division, modulus, factorial, square root, power, matrix addition and matrix substraction.
 The input includes the command such as we can give numbers based on the operation for example for addition we give 1 as a command and that particular operation works. Moreover, this calculator is smart enough to operate multiplication/division before addition/subtraction/factorial/power/modulas, in another word it is implemented with the order of precedence logic.
 
-## High Level Requirements
-* User should be able to review operation menu
-* The user should be able to select the operation
-* The system should be able to perform the given operation
-* The system should provide correct result
-
-## Low Level Requirements
-* Menu Should e displayed
-* Program should exit when user enter's zero
-* Action executed according to the input given
-* Appropriate error messages at failure and success of operations
-
 ## SWOT Analysis
 ![swot](https://user-images.githubusercontent.com/73360521/153700046-fe863a6d-215a-4e4f-896d-80ae81edeff4.jpg)
 
@@ -45,6 +33,23 @@ The input includes the command such as we can give numbers based on the operatio
 | HR04 | The program should give the correct result for the given operation | Technical | IMPLEMENTED  |
 
 ## Low level Requirements:
+| ID | Description | HLR ID | Status |
+| --- | --- | --- | --- |
+| LR01 | User must choose an option from the given menu | HR01 | IMPLEMENTED  |
+| LR02 | When given zero the program should end | HR02 |  IMPLEMENTED |
+| LR03 | User must specify two variables to implement the choosen operation | HR03 |  IMPLEMENTED |
+| LR04 | When user performs the first option the result should be sum of two numbers | HR03 | IMPLEMENTED  |
+| LR05 | When user performs the Second option the result should be subtraction of two numbers | HR03 | IMPLEMENTED  |
+| LR06 | When user performs the third option the result should be multiplication of two numbers | HR03 | IMPLEMENTED  |
+| LR07 | When user performs the fourth option the result should be division of two numbers | HR03 | IMPLEMENTED  |
+| LR08 | When user performs the fifth option the result should be to find modulus | HR03 | IMPLEMENTED  |
+| LR09 | When user performs the sixth option the result should be to find factorial of a number | HR03 | IMPLEMENTED  |
+| LR010 | When user performs the seventh option the result should be to find power | HR03 | IMPLEMENTED  |
+| LR011 | When user performs the eighth option the result should be to find square | HR03 | IMPLEMENTED  |
+| LR012 | When user performs the nineth option the result should be to find cube | HR03 | IMPLEMENTED  |
+| LR013 | When user performs the option ten the result should be to find squareroot | HR03 | IMPLEMENTED  |
+| LR014 | When user performs the option eleven the result should be to find logarithm | HR03 | IMPLEMENTED  |
+| LR015 | When user performs the option twelve the result should be to find matrix addition | HR03 | IMPLEMENTED  |
 
 
 
