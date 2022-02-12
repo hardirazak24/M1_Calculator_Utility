@@ -8,6 +8,12 @@ This Calculator doesn't involve any complex operations. It is easy to apply the 
 
 ## Cost and Features
 The cost for implementing this project is minimal to none
+#### Features
+* Options to select the operation
+* Separate function for each operation
+* Designing each module with readme files
+* Unit Testing the code with various testcases
+* Implimentation of Multifile and Makefile
 
 ## SWOT Analysis
 ![swot](https://user-images.githubusercontent.com/73360521/153700046-fe863a6d-215a-4e4f-896d-80ae81edeff4.jpg)
