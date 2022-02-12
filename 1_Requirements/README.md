@@ -35,4 +35,13 @@ The input includes the command such as we can give numbers based on the operatio
 * The Project is going to be implemented in C language
 * The constraints of the project are to develop it using industry level standards with a multi-file approach.
 
+# Detail requirements
+## High Level Requirements:
+| ID | Description | Category | Status |
+| --- | --- | --- | --- |
+| HR01 | User should be able to view the operation list | Technical | IMPLEMENTED  |
+| HR02 | User should be able to select the required operation | Technical |  IMPLEMENTED |
+| HR03 | The program sould be able perform the selected operation | Technical |  IMPLEMENTED |
+| HR04 | The program should give the correct result for the given operation | Technical | IMPLEMENTED  |
+
 
