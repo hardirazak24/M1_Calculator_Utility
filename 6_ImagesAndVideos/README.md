@@ -1,7 +1,5 @@
+## Makefile Output
+![Screenshot (400)](https://user-images.githubusercontent.com/73360521/156460890-f504d531-adfd-43d5-a0b7-5644f58e37ae.png)
 
-![153700046-fe863a6d-215a-4e4f-896d-80ae81edeff4](https://user-images.githubusercontent.com/73360521/153710882-614cee32-5b2b-4a39-b680-564603df7857.png)
-
-![153636298-345bb1ee-99c3-4022-baea-c9adb4d3ba33](https://user-images.githubusercontent.com/73360521/153710901-534e0947-cbac-4571-b82e-d7eb763bbfba.png)
-
-![153625004-a404f709-c4cd-47e6-bd5d-594b2031dd38](https://user-images.githubusercontent.com/73360521/153710910-e44348d1-dea4-48a0-8c1f-202396451a10.png)
-
+## Unit Testing Output
+![Unit_test_output](https://user-images.githubusercontent.com/73360521/156460951-09b57625-791f-40a2-a051-fbd64a44e45f.png)
