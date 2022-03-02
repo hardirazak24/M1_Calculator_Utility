@@ -23,7 +23,7 @@ The input includes the command such as we can give numbers based on the operatio
 ## Contributors List and Summary
 | PS No.  | Name | Features | Issuess Raised | Issues Resolved | No Test Cases | Test Case Pass |
 | --- | --- | --- | --- | --- | --- | --- |
-| 99007641  | Hadi Abdul Razak  | F_01, F_02, F_03, F_04, F_05, F_06 | None | None | 4 | 4 |
+| 99007641  | Hadi Abdul Razak  | F_01, F_02, F_03, F_04, F_05 | None | None | 4 | 4 |
 
 | Feature ID | Features |
 | --- | --- |
@@ -32,7 +32,6 @@ The input includes the command such as we can give numbers based on the operatio
 | `F_03` | Designing each module with readme files |
 | `F_04` | Unit Testing the code with various testcases |
 | `F_05` | Implimentation of Multifile and Makefile |
-| `F_06` | Building all the workflows In Git |
 
 ## Challenges Faced and How Was It Overcome
 | No. | Challenges | Solutions |
