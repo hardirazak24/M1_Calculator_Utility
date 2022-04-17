@@ -12,5 +12,3 @@
 | --- | --- | --- | --- | --- | --- |
 | L_01 | Login Details | user name: admin and password: admin | login sucessful | PASS | Technical |
 
-## Output
-![Screenshot (485)](https://user-images.githubusercontent.com/73360521/163713506-bb466120-67be-4f32-a146-940c54c7317b.png)
